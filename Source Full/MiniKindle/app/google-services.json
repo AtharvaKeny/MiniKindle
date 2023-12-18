@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "655932659765",
+    "firebase_url": "https://minikindle-e3ab1.firebaseio.com",
+    "project_id": "minikindle-e3ab1",
+    "storage_bucket": "minikindle-e3ab1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655932659765:android:e62e997a003890ee",
+        "android_client_info": {
+          "package_name": "com.example.minikindle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655932659765-lu4rg69mm3nqiotnedef25tu6qd9m9tq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minikindle",
+            "certificate_hash": "a2f16b57dc393a37e9bc7df288e7ae00736cd4a2"
+          }
+        },
+        {
+          "client_id": "655932659765-8bm1srom9uplqltelpvbqug1vtp26i5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlZBMp_LZMMoIJ_elqCvGC7CTpN0ocM_8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655932659765-8bm1srom9uplqltelpvbqug1vtp26i5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

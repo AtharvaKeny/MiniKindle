@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/swipe_to_refresh"
+    android:layout_height="match_parent"
+    tools:context="com.example.minikindle.MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:background="@android:color/black"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/columnColor"
+           android:orientation="horizontal"
+           android:padding="16dp">
+
+           <ImageView
+               android:layout_width="311dp"
+               android:layout_height="41dp"
+               android:layout_weight="500"
+               android:src='@drawable/logo_mk' />
+
+           <ImageView
+               android:id="@+id/btn_show_filter_search"
+               android:layout_width="39dp"
+               android:layout_height="34dp"
+               android:layout_weight="75"
+               android:src='@drawable/ic_search_white_24dp' />
+       </LinearLayout>
+       <ss.com.bannerslider.Slider
+           android:id="@+id/slider"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"></ss.com.bannerslider.Slider>
+       
+       <LinearLayout
+           android:orientation="horizontal"
+           android:weightSum="4"
+           android:layout_marginTop="8dp"
+           android:layout_height="wrap_content"
+           android:layout_width="match_parent">
+           
+           <TextView
+               android:id="@+id/txt_comic"
+               android:text="NEW BOOK (0)"
+               android:background="@drawable/horizontal_line"
+               android:textSize="16sp"
+               android:padding="8dp"
+               android:textStyle="bold"
+               android:textColor="@color/columnColor"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_comic"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+   </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>
